@@ -30,4 +30,4 @@ jobs:
         pycodestyle mglib --count --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        coverage pytest
+        coverage run -m pytest
